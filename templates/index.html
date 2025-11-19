@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PPE Detection App</title>
+</head>
+<body style="font-family: Arial; padding: 20px;">
+  <h1>🦺 PPE Detection Demo</h1>
+  <p>Upload an MP4 video to detect PPE compliance.</p>
+
+  <form action="/process" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="video/mp4" required>
+    <br><br>
+    <button type="submit">Upload & Process</button>
+  </form>
+
+  <p>Developed by <b>Dr. Arkaprabha Sau</b></p>
+</body>
+</html>
